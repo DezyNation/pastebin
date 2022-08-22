@@ -1,0 +1,42 @@
+.widget{
+    position: relative;
+    flex: 1;
+    padding: 1rem;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 1px 1px 20px rgba($color: #000000, $alpha: 0.15);
+
+    .top{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        i{
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            background: linear-gradient(120deg, #222, #333);
+            color: #FFF;
+            display: grid;
+            place-content: center;
+        }
+
+        .data-column{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+
+            p{
+                font-size: .8rem;
+                color: darkslategray;
+            }
+
+            h2{
+                font-size: 1.5rem;
+                color: #222;
+            }
+        }
+    }
+}
