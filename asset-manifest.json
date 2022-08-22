@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pastebin/static/css/main.1d2ad078.css",
+    "main.js": "/pastebin/static/js/main.17f737f2.js",
+    "index.html": "/pastebin/index.html",
+    "main.1d2ad078.css.map": "/pastebin/static/css/main.1d2ad078.css.map",
+    "main.17f737f2.js.map": "/pastebin/static/js/main.17f737f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d2ad078.css",
+    "static/js/main.17f737f2.js"
+  ]
+}
