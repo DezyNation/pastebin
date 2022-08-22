@@ -1,7 +1,7 @@
 import React from 'react';
 import './backend.scss';
 import Sidebar from '../Components/Sidebar/Sidebar';
-import Widget from '../Components/Widget/Widget';
+import Widget from '../Components/Widgets/Widget';
 
 const Backend = () => {
   return (
