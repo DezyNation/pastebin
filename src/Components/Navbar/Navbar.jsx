@@ -10,6 +10,7 @@ const Navbar = () => {
                 <a href="#" className='nav-icon'><i className="bi-cloud-upload-fill"></i></a>
                 <a href="#" className='nav-icon'><i className="bi-telegram"></i></a>
                 <a href="#" className='nav-icon'><i className="bi-shield-lock-fill"></i></a>
+                <a href="#" className='nav-icon'><i className="bi-clock-history"></i></a>
             </div>
             <div className="right">
                 <div className="ad">Space for advertisement 1</div>

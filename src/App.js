@@ -1,24 +1,24 @@
 import './app.scss';
-import Frontend from './Frontend/Frontend';
 import {
-  BrowserRouter,
+  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
 import Backend from './Backend/Backend';
+import Frontend from './Frontend/Frontend';
 
 
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
+    <Router>
       <Routes>
-        <Route path="/">
-          <Route index element={<Frontend />} />
-          <Route path='admin' element={<Backend />} />
-        </Route>
+        <Route path="/" element={<Frontend />} />
+        <Route path="/pastebin" element={<Frontend />} />
+        <Route path="/pastebin/admin" element={<Backend />} />
+        <Route path="/admin" element={<Backend />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
     </div>
   );
 }
