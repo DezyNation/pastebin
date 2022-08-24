@@ -21,8 +21,13 @@
 
             .logo{
                 margin: 0 2rem 0 0;
+                padding: .75rem;
                 font-size: 1.25rem;
                 color: azure;
+                background: transparent;
+                border-radius: 8px;
+                border: none;
+                outline: 1px solid #555;
             }
             .nav-icon{
                 margin: 0 1rem;
