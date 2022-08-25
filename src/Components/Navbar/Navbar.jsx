@@ -6,8 +6,8 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="wrapper">
             <div className="left">
-                <input type='text' name='title' id='title' className='logo' value='Title' />
-                <a href="#" className='nav-icon'><i className="bi-cloud-upload-fill"></i></a>
+                <input type='text' name='title' id='title' className='logo' value='Your Paste Title' />
+                <a href="#" className='nav-icon'><i className="bi-cloud-check-fill"></i></a>
                 <a href="#" className='nav-icon'><i className="bi-telegram"></i></a>
                 <a href="#" className='nav-icon'><i className="bi-shield-lock-fill"></i></a>
                 <a href="#" className='nav-icon'><i className="bi-clock-history"></i></a>
